@@ -21,15 +21,3 @@ describe('The todos reducer', () => {
         expect(actual).to.deep.equal(expected);
     });
 });
-
-/* import React from 'react'
-import { expect } from 'chai'
-import App from '../../src/App'
-
-const wrapper = shallow(<App />);
-
-describe('(Component) App', () => {
-  it('renders...', () => {
-    expect(wrapper).to.have.length(1);
-  });
-}); */
